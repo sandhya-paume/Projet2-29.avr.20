@@ -1,0 +1,111 @@
+@font-face{
+	font-family:'Cookie-Regular'; 
+	src: url('Cookie-Regular.ttf') format('ttf');
+	font-weight: normal;
+ 	font-style: normal;
+}
+
+/*Colonne de gauche*/
+#gauche{
+	background-color: #F6F6EC;
+}
+.nobullets{
+	list-style-type:none;
+}
+.contact{
+	margin-bottom: 10px;
+}
+.container-fluid{
+	color: black;
+}
+
+/*Photo de profil*/
+.image-profil{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    height: 210px;
+}
+.image-adresse{
+	width: 20px;
+	height: 20px;
+}
+.image-telephone{
+	width: 20px;
+	height: 20px;
+}
+.image-email{
+	width: 20px;
+	height: 20px;
+}
+.image-web{
+	width: 20px;
+	height: 20px;
+}
+.image-linkedin{
+	width: 20px;
+	height: 20px;
+}
+.image-makeup{
+	width: 50px;
+	height: 50px;
+}
+.image-voyage{
+	width: 50px;
+	height: 50px;
+}
+.image-musique{
+	width: 50px;
+	height: 50px;
+}
+.image-cuisine{
+	width: 50px;
+	height: 50px;
+}
+.image-sport{
+	width: 50px;
+	height: 50px;
+}
+.image-cinema{
+	width: 50px;
+	height: 50px;
+}
+.image-geek{
+	width: 50px;
+	height: 50px;
+}
+
+/*Colonne de droite*/
+.text-center{
+	color: black;
+}
+#droite{
+	background-color: white;
+	color: black;
+}
+.image-malette{
+	width: 25px;
+	height: 25px;
+}
+.image-cle{
+	width: 25px;
+	height: 25px;
+}
+.image-formations{
+	width: 25px;
+	height: 25px;
+}
+h1{
+	font-family: 'Cookie-Regular';
+}
+body{
+	font-family: 'Cookie-Regular';
+}
+.profil{
+	font-size: 15px;
+}
+.titre-bandeau{
+	border: 6px double black; 
+	margin-top: 10px
+}
