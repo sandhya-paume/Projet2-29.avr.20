@@ -1,22 +1,26 @@
 @font-face{
-	font-family:'Cookie-Regular'; 
-	src: url('Cookie-Regular.ttf') format('ttf');
+	font-family:'CroissantOne-Regular'; 
+	src: url('CroissantOne-Regular.ttf') format('ttf');
 	font-weight: normal;
  	font-style: normal;
+ 	font-family: 'Sprat-RegularMedium';
+ 	src: url('Sprat-RegularMedium.otf') format('otf');
 }
 
 /*Colonne de gauche*/
-#gauche{
-	background-color: #F6F6EC;
-}
-.nobullets{
-	list-style-type:none;
-}
-.contact{
-	margin-bottom: 10px;
+#colonne-gauche{
+	background-color:#941162;
 }
 .container-fluid{
 	color: black;
+}
+.titre-gauche{
+	font-family: 'Sprat-RegularMedium';
+	background-color:#F1CAE2;
+	color: #941162;
+	margin-top: 15px;
+	font-size: 20px;
+
 }
 
 /*Photo de profil*/
@@ -24,8 +28,8 @@
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 210px;
-    height: 210px;
+    width: 200px;
+    height: 200px;
 }
 .image-adresse{
 	width: 20px;
@@ -80,7 +84,7 @@
 .text-center{
 	color: black;
 }
-#droite{
+#colonne-droite{
 	background-color: white;
 	color: black;
 }
@@ -88,7 +92,7 @@
 	width: 25px;
 	height: 25px;
 }
-.image-cle{
+.image-crayon{
 	width: 25px;
 	height: 25px;
 }
@@ -96,16 +100,40 @@
 	width: 25px;
 	height: 25px;
 }
-h1{
-	font-family: 'Cookie-Regular';
+.image-point{
+	width: 10px;
+	height: 10px;
 }
-body{
-	font-family: 'Cookie-Regular';
+.image-dot{
+	width: 10px;
+	height: 10px;
 }
 .profil{
 	font-size: 15px;
 }
-.titre-bandeau{
-	border: 6px double black; 
-	margin-top: 10px
+
+h1{
+	font-family: 'Sprat-RegularMedium';
+	margin:50px;
+	
+}
+h2{
+	font-family: 'CroissantOne-Regular';
+	margin:50px;
+	padding-bottom:50px;
+}
+.titre-droite{
+	font-family: 'Sprat-RegularMedium';
+	margin:50px;
+	padding-bottom: 10px;
+	border-bottom: solid #941162;
+}
+.recommandation{
+	padding-left: 40px;
+}
+.lignes{
+	margin-bottom: 20px;
+}
+span{
+	color:#941162;
 }
