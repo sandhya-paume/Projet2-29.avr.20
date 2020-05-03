@@ -1,0 +1,28 @@
+@font-face{
+	font-family: 'Sprat-RegularMedium';
+	src: url('Sprat-RegularMedium.otf') format('otf')
+}
+body{
+	font-family: 'Sprat-RegularMedium';
+}
+.bordereau-titre{
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 10px black double;
+    border-radius: 30px 15px 30px 15px;
+    text-align: center;
+    
+}
+.image-paysage{
+	width: 100%;
+	height: 50%;
+
+}
+.cv-bouton{
+	width:50px;
+	height: 50px; 
+}
+	
+.texte-principal{
+	margin-top: 20px;
+}
