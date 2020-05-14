@@ -7,22 +7,27 @@
  	src: url('Sprat-RegularMedium.otf') format('otf');
 }
 
+
+
+
 /*Colonne de gauche*/
 #colonne-gauche{
-	background-color:#941162;
+	background-color:#FFC0CB;
+	padding: 0px;
 }
+
 .container-fluid{
 	color: black;
 }
+
 .titre-gauche{
 	font-family: 'Sprat-RegularMedium';
-	background-color:#F1CAE2;
-	color: #941162;
+	background-color: black;
+	color: #FFC0CB;
 	margin-top: 15px;
-	font-size: 20px;
+	font-size: 30px;
 }
 
-/*Photo de profil*/
 .image-profil{
 	display: block;
     margin-left: auto;
@@ -30,114 +35,103 @@
     width: 200px;
     height: 200px;
 }
-.image-adresse{
-	width: 20px;
-	height: 20px;
-}
-.image-telephone{
-	width: 20px;
-	height: 20px;
-}
-.image-email{
-	width: 20px;
-	height: 20px;
-}
-.image-web{
-	width: 20px;
-	height: 20px;
-}
-.image-linkedin{
-	width: 20px;
-	height: 20px;
-}
-.image-makeup{
-	width: 50px;
-	height: 50px;
-}
-.image-voyage{
-	width: 50px;
-	height: 50px;
-}
-.image-musique{
-	width: 50px;
-	height: 50px;
-}
-.image-cuisine{
-	width: 50px;
-	height: 50px;
-}
-.image-sport{
-	width: 50px;
-	height: 50px;
-}
-.image-cinema{
-	width: 50px;
-	height: 50px;
-}
-.image-geek{
-	width: 50px;
-	height: 50px;
+
+.images-loisirs{
+	width: 60px;
+	height: 60px;
+	margin-right: 50px;
 }
 
-/*Colonne de droite*/
-.text-center{
-	color: black;
+.profil{
+	font-size: 15px;
+	margin: 20px 30px 650px 30px;
 }
+
+.loisir-marge{
+	margin-bottom: 15px;
+	padding-top: 25px;
+}
+
+.intitule{
+	padding-top: 20px;
+}
+
+
+
+
+
+
+/*Colonne de droite*/
+.fas{
+	color: #FFC0CB;
+	padding-top: 6px;
+}
+
+.far{
+	color: #FFC0CB;
+	padding-top: 6px;
+}
+
 #colonne-droite{
 	background-color: white;
 	color: black;
 }
-.image-malette{
-	width: 25px;
-	height: 25px;
-}
-.image-crayon{
-	width: 25px;
-	height: 25px;
-}
-.image-formations{
-	width: 25px;
-	height: 25px;
-}
-.image-point{
-	width: 10px;
-	height: 10px;
-}
-.image-dot{
-	width: 10px;
-	height: 10px;
-}
-.profil{
-	font-size: 15px;
-}
 
 h1{
 	font-family: 'Sprat-RegularMedium';
-	margin:50px;
+	margin: 50px 0 10px 50px;
 	padding-top: 20px;
-	
 }
+
 h2{
 	font-family: 'CroissantOne-Regular';
-	margin:50px;
-	padding-bottom:50px;
+	margin: 10px 0 50px 50px;
+	padding-bottom:10px;
+	text-align: center;
+	font-size: 25px;
 }
+
 .titre-droite{
 	font-family: 'Sprat-RegularMedium';
 	margin:50px;
 	padding-bottom: 10px;
-	border-bottom: solid #941162;
+	border-bottom: solid #FFC0CB;
 }
+
 .recommandation{
 	padding-left: 40px;
 	margin-bottom: 40px;
 }
+
 .lignes{
 	margin-bottom: 20px;
 }
-span{
-	color:#941162;
+
+.prenom{
+	color:#FFC0CB;
 }
-.loisir-marge{
-margin-bottom: 15px;
+
+.barre{
+	height: 1px;
+	width: 86px;
+	visibility: visible;
+	position: relative;
+	background-color:#FFC0CB;
+}
+
+.espacement{
+	margin-left: 30px;	
+}
+
+.contact{
+	height: 150px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.contact-bloc{
+	padding-left: 10px;
+	margin-bottom : 30px;
+	margin-left: 30px;
 }
