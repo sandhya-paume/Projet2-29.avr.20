@@ -7,7 +7,62 @@
  	src: url('Sprat-RegularMedium.otf') format('otf');
 }
 
+@media only screen and (max-device-width:480px){
+.profil{
+	margin: 20px 30px 0px 30px;
+}	
 
+.marges{
+	margin-bottom: 2px;
+}
+.espacement{
+	margin-left: 20px;
+	font-size: 14px;
+}
+body{
+	font-size: 12px;
+}
+.titre-droite{
+	font-family: 'Sprat-RegularMedium';
+	margin:10px;
+	padding-bottom: 10px;
+	border-bottom: solid #FFC0CB;
+}
+.recommandation{
+	padding-left: 40px;
+	margin-bottom: 40px;
+	font-size: 12px;
+}	
+}
+
+
+@media only screen and (min-device-width:481px){
+.profil{
+	font-size: 15px;
+	margin: 20px 30px 650px 30px;
+}
+.marges{
+	margin-bottom: 20px;
+}
+.espacement{
+	margin-left: 30px;	
+}
+body{
+	font-size: 15px;
+}
+.titre-droite{
+	font-family: 'Sprat-RegularMedium';
+	margin:50px;
+	padding-bottom: 10px;
+	border-bottom: solid #FFC0CB;
+}
+.recommandation{
+	padding-left: 40px;
+	margin-left:55px;
+	margin-bottom: 40px;
+	font-size: 15px;
+}	
+}
 
 
 /*Colonne de gauche*/
@@ -42,11 +97,6 @@
 	margin-right: 50px;
 }
 
-.profil{
-	font-size: 15px;
-	margin: 20px 30px 650px 30px;
-}
-
 .loisir-marge{
 	margin-bottom: 15px;
 	padding-top: 25px;
@@ -66,6 +116,8 @@
 	color: #FFC0CB;
 	padding-top: 6px;
 }
+
+
 
 .far{
 	color: #FFC0CB;
@@ -91,21 +143,10 @@ h2{
 	font-size: 25px;
 }
 
-.titre-droite{
-	font-family: 'Sprat-RegularMedium';
-	margin:50px;
-	padding-bottom: 10px;
-	border-bottom: solid #FFC0CB;
-}
 
-.recommandation{
-	padding-left: 40px;
-	margin-bottom: 40px;
-}
 
-.lignes{
-	margin-bottom: 20px;
-}
+
+
 
 .prenom{
 	color:#FFC0CB;
@@ -119,9 +160,6 @@ h2{
 	background-color:#FFC0CB;
 }
 
-.espacement{
-	margin-left: 30px;	
-}
 
 .contact{
 	height: 150px;
