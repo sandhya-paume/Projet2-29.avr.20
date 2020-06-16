@@ -9,7 +9,7 @@
 
 
 /* Media Smartphone */
-@media only screen and (max-device-width:480px){
+@media only screen and (max-width:480px){
 .profil{
 	margin: 20px 30px 0px 30px;
 }	
@@ -32,6 +32,7 @@ body{
 	margin-left: 0px;
 	padding-bottom: 10px;
 	border-bottom: solid #FFC0CB;
+	text-align: center;
 }
 .recommandation{
 	padding-left: 40px;
@@ -40,6 +41,7 @@ body{
 }	
 h4{
 	font-size: 10px;
+	text-align: center;
 }
 .fa-gamepad,.fa-headphones-alt,.fa-plane{
 	padding: 5px;
@@ -47,11 +49,38 @@ h4{
 	font-size: 35px;
 	margin: 10px;
 }
+.contact-bloc{
+	text-align: center;
+	margin-bottom : 30px;
+}
+#formation{
+	text-align: center;
+}
+.marges{
+	text-align: center;
+}
+.smartphone{
+	display: none;
+}
+.pointmobile{
+	margin-right: 10px;
+}
+h3{
+	text-align: center;
+}
+.permis{
+	margin-bottom: 20px;
+}
+.loisir-marge{
+	margin-bottom: 15px;
+	padding-top: 25px;
+	height: 100px;
+}
 }
 
 
 /* Media Tablettes */
-@media only screen and (min-device-width:481px) and (max-device-width:800px){
+@media only screen and (min-width:481px) and (max-width:1149px){
 .profil{
 	font-size: 15px;
 	margin: 20px 30px 650px 30px;
@@ -86,11 +115,27 @@ h4{
 	font-size: 35px;
 
 }
+.contact-bloc{
+	padding-left: 10px;
+	margin-bottom : 30px;
+	margin-left: 30px;
+}
+.smartphone{
+	text-align: right;
+}
+.pointmobile{
+	display: none;
+}
+.loisir-marge{
+	margin-bottom: 15px;
+	padding-top: 25px;
+	height: 100px;
+}
 }
 
 
 /* Media PC */
-@media only screen and (min-device-width:801px){
+@media only screen and (min-width:1150px){
 .profil{
 	font-size: 15px;
 	margin: 20px 30px 650px 30px;
@@ -109,6 +154,7 @@ body{
 	margin:50px;
 	padding-bottom: 10px;
 	border-bottom: solid #FFC0CB;
+	text-align: left;
 }
 .recommandation{
 	padding-left: 40px;
@@ -121,9 +167,26 @@ h4{
 }
 .fa-gamepad,.fa-headphones-alt,.fa-plane{
 	padding: 20px;
-	font-size: 40px;
-	margin: 15px;
+	font-size: 35px;
+	margin-right: 5px;
 	color:black;
+}
+.contact-bloc{
+	padding-left: 10px;
+	margin-bottom : 30px;
+	margin-left: 30px;
+}
+.pointmobile{
+	display: none;
+}
+.smartphone{
+	text-align: right;
+}
+.loisir-marge{
+	margin-bottom: 15px;
+	margin-top:40px;
+	padding-top: 25px;
+	height: 100px;
 }
 }
 
@@ -133,11 +196,9 @@ h4{
 	background-color:#FFC0CB;
 	padding: 0px;
 }
-
 .container-fluid{
 	color: black;
 }
-
 .titre-gauche{
 	font-family: 'Sprat-RegularMedium';
 	background-color: black;
@@ -145,21 +206,12 @@ h4{
 	margin-top: 15px;
 	font-size: 30px;
 }
-
 .image-profil{
 	display: block;
     margin-left: auto;
     margin-right: auto;
     width: 200px;
     height: 200px;
-}
-
-
-
-.loisir-marge{
-	margin-bottom: 15px;
-	padding-top: 25px;
-	height: 100px;
 }
 
 .intitule{
@@ -176,8 +228,6 @@ h4{
 	color: #FFC0CB;
 	padding-top: 6px;
 }
-
-
 .far{
 	color: #FFC0CB;
 	padding-top: 6px;
@@ -187,13 +237,11 @@ h4{
 	background-color: white;
 	color: black;
 }
-
 h1{
 	font-family: 'Sprat-RegularMedium';
 	margin: 50px 0 10px 50px;
 	padding-top: 20px;
 }
-
 h2{
 	font-family: 'CroissantOne-Regular';
 	margin: 10px 0 50px 50px;
@@ -201,16 +249,9 @@ h2{
 	text-align: center;
 	font-size: 25px;
 }
-
-
-
-
-
-
 .prenom{
 	color:#FFC0CB;
 }
-
 .barre{
 	height: 1px;
 	width: 86px;
@@ -218,8 +259,6 @@ h2{
 	position: relative;
 	background-color:#FFC0CB;
 }
-
-
 .contact{
 	height: 150px;
 	width: 150px;
@@ -227,8 +266,3 @@ h2{
 	margin-bottom: 20px;
 }
 
-.contact-bloc{
-	padding-left: 10px;
-	margin-bottom : 30px;
-	margin-left: 30px;
-}
