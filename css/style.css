@@ -213,7 +213,6 @@ h4{
     width: 200px;
     height: 200px;
 }
-
 .intitule{
 	padding-top: 20px;
 }
@@ -232,7 +231,6 @@ h4{
 	color: #FFC0CB;
 	padding-top: 6px;
 }
-
 #colonne-droite{
 	background-color: white;
 	color: black;
@@ -241,13 +239,6 @@ h1{
 	font-family: 'Sprat-RegularMedium';
 	margin: 50px 0 10px 50px;
 	padding-top: 20px;
-}
-h2{
-	font-family: 'CroissantOne-Regular';
-	margin: 10px 0 50px 50px;
-	padding-bottom:10px;
-	text-align: center;
-	font-size: 25px;
 }
 .prenom{
 	color:#FFC0CB;
@@ -258,11 +249,19 @@ h2{
 	visibility: visible;
 	position: relative;
 	background-color:#FFC0CB;
+
 }
 .contact{
 	height: 150px;
 	width: 150px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+.statut{
+	font-family: 'CroissantOne-Regular';
+	margin: 10px 0 50px 50px;
+	padding-bottom:10px;
+	text-align: center;
+	font-size: 25px;
 }
 
